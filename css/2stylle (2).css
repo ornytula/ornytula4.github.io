@@ -1,0 +1,28 @@
+
+#nav.open #one {
+animation:animate-me 2s  ease-in ;
+
+ 
+  }
+
+ #one {
+animation:animate 2s  ease-in ;
+ }
+
+@keyframes animate-me{
+0%{opacity: 0;}
+
+100%{opacity: 100%;}
+  
+}
+#contain{z-index: 999999;}
+
+
+@keyframes animate{
+0%{opacity: 0;}
+
+100%{opacity: 100%;}
+  
+}
+#contain{z-index: 9;display:inline ;position:absolute ;left: 55%;
+top:2%}
